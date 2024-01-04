@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    internal class shapeControl : canvass
+    public class shapeControl : canvass
     {
         public void runCommands(String strtxt)
         {

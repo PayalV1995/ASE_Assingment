@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    internal class canvass
+    public class canvass
     {
         //Graphics variable to execute graphics fuction
         Graphics g;
