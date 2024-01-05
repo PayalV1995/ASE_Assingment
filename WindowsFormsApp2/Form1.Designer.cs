@@ -45,6 +45,7 @@
             this.button3.TabIndex = 0;
             this.button3.Text = "Run";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -54,6 +55,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Save";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 
@@ -63,6 +65,7 @@
             this.button4.TabIndex = 2;
             this.button4.Text = "Clear";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // ControlePanel
             // 
@@ -78,6 +81,7 @@
             this.commandline.Name = "commandline";
             this.commandline.Size = new System.Drawing.Size(270, 22);
             this.commandline.TabIndex = 4;
+            this.commandline.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Commandline_KeyDown);
             // 
             // display
             // 
